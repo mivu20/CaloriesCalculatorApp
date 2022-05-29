@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.caloriecalculatorapplication.fragment.HomeFragment"
+        android:label="@string/mHome"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.caloriecalculatorapplication.fragment.ProfileFragment"
+        android:label="@string/mProfile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_goal"
+        android:name="com.example.caloriecalculatorapplication.fragment.GoalFragment"
+        android:label="@string/mGoal"
+        tools:layout="@layout/fragment_goal" />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.example.caloriecalculatorapplication.fragment.CategoryFragment"
+        android:label="@string/mCategories"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_food"
+        android:name="com.example.caloriecalculatorapplication.fragment.FoodFragment"
+        android:label="@string/mFood"
+        tools:layout="@layout/fragment_food" />
+</navigation>
